@@ -330,7 +330,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**▶️ Music Bot Is Playin Now In** ➡️ `{}`\n**Title:** {}\n**Duration:** {}\nViews: {}".format(
+            caption="**▶️ Music Bot Is Playin Now In** ➡️ `{}`\n**Title:** {}\n**Duration:** {}\nViews: {}\n∆Requested By:{requested_by}\n\n© @StarterBotz ".format(
         message.chat.title, results[i]['title'], results[i]['duration'], results[i]['views']
         ), )
 

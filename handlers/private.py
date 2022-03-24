@@ -11,7 +11,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/c70635cc28eec97a43f40.jpg",
-        caption=f"""**𝐓𝐡𝐢𝐬 𝐈𝐬 𝐀𝐝𝐯𝐚𝐧𝐜𝐞 🥀𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭\n\n⚜𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝙱𝚢 - 𝙷𝚊𝚛𝚜𝚑𝚞_𝚡𝙳**""",
+        caption=f"""**𝐓𝐡𝐢𝐬 𝐈𝐬 𝐀𝐝𝐯𝐚𝐧𝐜𝐞 🥀𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭\n\n⚜My Boss - @Harshu_xD\n\n© @StarterBotz**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -20,7 +20,7 @@ async def start_(client: Client, message: Message):
                ],
                 [
                     InlineKeyboardButton(
-                        "Channel🔥", url=f"https://t.me/StarterChannel")
+                        "Bot Channel🔥", url=f"https://t.me/StarterBotz")
                 ]
                 
            ]
